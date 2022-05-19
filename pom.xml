@@ -5,12 +5,22 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.overlook.android</groupId>
   <artifactId>fingkit</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
   <repositories>
     <repository>
       <id>google-maven-central</id>
       <name>google</name>
       <url>https://maven.google.com</url>
+    </repository>
+    <repository>
+      <id>maven-fabric-io</id>
+      <name>fabric</name>
+      <url>https://maven.fabric.io/public</url>
+    </repository>
+    <repository>
+      <id>maven-huawei-developer</id>
+      <name>huawei</name>
+      <url>https://developer.huawei.com/repo/</url>
     </repository>
   </repositories>
   <dependencies>
