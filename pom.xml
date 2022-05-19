@@ -6,6 +6,13 @@
   <groupId>com.overlook.android</groupId>
   <artifactId>fingkit</artifactId>
   <version>2.5.2</version>
+  <repositories>
+    <repository>
+      <id>google-maven-central</id>
+      <name>google</name>
+      <url>https://maven.google.com</url>
+    </repository>
+  </repositories>
   <dependencies>
     <dependency>
       <groupId>androidx.appcompat</groupId>
