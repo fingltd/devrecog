@@ -13,6 +13,11 @@
       <url>https://maven.google.com</url>
     </repository>
     <repository>
+      <id>jitpack-maven</id>
+      <name>jitpack</name>
+      <url>https://jitpack.io</url>
+    </repository>
+    <repository>
       <id>maven-fabric-io</id>
       <name>fabric</name>
       <url>https://maven.fabric.io/public</url>
