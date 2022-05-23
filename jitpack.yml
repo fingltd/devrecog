@@ -1,0 +1,10 @@
+--- 
+env: 
+  ARTIFACT_ID: fingkit
+  FILE: fing-kit.aar
+  GROUP_ID: com.overlook.android
+  VERSION: 2.5.2
+install: 
+  - "echo \"Running maven install w/ file -> ${FILE} and version -> ${VERSION}. Group id -> ${GROUP_ID}. Artifact Id -> ${ARTIFACT_ID}\""
+  - "mvn install:install-file -Dfile=$FILE -DgroupId=$GROUP_ID -DartifactId=$ARTIFACT_ID -Dversion=$VERSION -Dpackaging=aar -DpomFile=pom.xml"
+
