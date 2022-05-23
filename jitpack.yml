@@ -1,3 +1,4 @@
 install: 
 FILE="-Dfile=fing-kit.aar" 
-mvn install:install-file $FILE -DgroupId=com.overlook.android -DartifactId=fingkit -Dversion=0.0.4 -Dpackaging=aar -DpomFile=pom.xml
+VERSION="-Dversion=2.5.2"
+mvn install:install-file $FILE -DgroupId=com.overlook.android -DartifactId=fingkit $VERSION -Dpackaging=aar -DpomFile=pom.xml
