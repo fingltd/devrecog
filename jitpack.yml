@@ -1,4 +1,13 @@
-install: 
-  - FILE="-Dfile=fing-kit.aar" 
-  - VERSION="-Dversion=2.5.2"
+jdk:
+  - openjdk8
+
+# before_install:
+#  - ./custom_setup.sh
+
+install:
+  - echo "Running maven install w/ file: ${FILE} and version: ${VERSION}"
   - mvn install:install-file $FILE -DgroupId=com.overlook.android -DartifactId=fingkit $VERSION -Dpackaging=aar -DpomFile=pom.xml
+
+env:
+  FILE: "-Dfile=fing-kit.aar" 
+  VERSION: "-Dversion=2.5.2"
