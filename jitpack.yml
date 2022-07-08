@@ -6,5 +6,5 @@ env:
   VERSION: 2.5.2
 install: 
   - "echo \"Running maven install w/ file -> ${FILE} and version -> ${VERSION}. Group id -> ${GROUP}. Artifact Id -> ${ARTIFACT}\""
-  - "mvn install:install-file -Dfile=$FILE -DgroupId=$GROUP -DartifactId=$ARTIFACT -Dversion=$VERSION -Dpackaging=aar -DpomFile=pom.xml"
+  - "mvn install:install-file -Dfile=$FILE -DgroupId=$GROUP -DartifactId=$ARTIFACT -Dversion=$VERSION -Dpackaging=aar -Dtype=aar -DpomFile=pom.xml"
 
