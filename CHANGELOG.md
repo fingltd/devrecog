@@ -9,6 +9,10 @@ Types of changes: Added, Changed, Deprecated, Removed, Fixed, Security.
 ### Fixed
 - Fix native discovery 
 
+## [2.5.3] - 2022-08-04
+### Fixes
+- Fix issue on package creation. Now it's possible to integrate the SDK on 3rd parties' library.
+
 ## [2.5.2] - 2020-01-26
 ### Fixed
 - Minor security improvements to Android service.
