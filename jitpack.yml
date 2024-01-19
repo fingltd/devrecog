@@ -3,7 +3,7 @@ env:
   ARTIFACT: fingkit
   FILE: fing-kit.aar
   GROUP: com.overlook.android
-  VERSION: 2.6.1
+  VERSION: 2.7.0
 install: 
   - "echo \"Running maven install w/ file -> ${FILE} and version -> ${VERSION}. Group id -> ${GROUP}. Artifact Id -> ${ARTIFACT}\""
   - "mvn install:install-file -Dfile=$FILE -DgroupId=$GROUP -DartifactId=$ARTIFACT -Dversion=$VERSION -Dpackaging=aar -Dtype=aar"
